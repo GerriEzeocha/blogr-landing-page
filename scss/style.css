@@ -56,6 +56,11 @@ h1, h2, h3, h4 {
   color: #1f3f5b;
 }
 
+section {
+  padding: 0.7rem;
+  text-align: center;
+}
+
 .flex_row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,7 +246,7 @@ header {
 .intro_hero_buttons button {
   width: 100%;
   border-radius: 1.8125rem;
-  padding: 0.6rem;
+  padding: 0.7rem;
   font-size: 0.9rem;
   font-weight: bold;
   cursor: pointer;
@@ -255,5 +260,80 @@ header {
   color: white;
   background-color: transparent;
   border: 1px solid white;
+}
+
+.body_section1 {
+  background: white;
+}
+
+.body_section1_title {
+  font-size: 1.8rem;
+  margin: 5rem 0 2rem 0;
+  color: #1f3f5b;
+}
+
+.body_section1_img {
+  width: auto;
+}
+
+.body_section1_img img {
+  width: 100%;
+}
+
+.body_section1_subtitle {
+  font-size: 1.8rem;
+  padding: 0 0.8rem;
+  margin-top: 2rem;
+}
+
+.body_section1_text {
+  color: #4b5862;
+  font-weight: 300;
+  line-height: 1.9rem;
+  padding: 1.4rem;
+}
+
+.imgOverflow {
+  margin-bottom: 13rem;
+}
+
+.body_section2 {
+  background-image: url("/images/bg-pattern-circles.svg"), -webkit-gradient(linear, left top, left bottom, from(#2c2d3f), to(#3f4164));
+  background-image: url("/images/bg-pattern-circles.svg"), linear-gradient(#2c2d3f, #3f4164);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  padding: 1rem;
+  border-top-right-radius: 8rem;
+  border-bottom-left-radius: 8rem;
+}
+
+.body_section2_img {
+  width: auto;
+  position: relative;
+  top: -12rem;
+  z-index: 100;
+}
+
+.body_section2_img img {
+  width: 100%;
+}
+
+.body_section2_words {
+  position: relative;
+  top: -5rem;
+}
+
+.body_section2_title {
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.body_section2_text {
+  color: white;
+  font-weight: 300;
+  line-height: 1.9rem;
+  padding: .8rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -32,6 +32,11 @@ h1, h2, h3, h4 {
     color: $veryDarkBlue;
 }
 
+section{
+    padding: 0.7rem;
+    text-align: center;
+}
+
 .flex_row {
     display: flex;
     align-items: center;
