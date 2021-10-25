@@ -30,13 +30,13 @@
               </div>
 
 
-              <nav class="nav_menu hide" id="nav_menu">
+              <nav class="nav_menu hide " id="nav_menu">
                 
                 <div class="nav_menu_item">
                   <ul class="link_title">
                     <a href="#" name="title">Product</a>
-                    <img src="images/icon-arrow-dark.svg" alt="dark arrow" class="mobile_arrow" />
-                    <img src="images/icon-arrow-light.svg" alt="light arrow" class="hide" id="reg_arrow" />
+                    <img src="images/icon-arrow-dark.svg" alt="dark arrow" name="int_arrow" class="mobile_arrow" />
+                    <img src="images/icon-arrow-light.svg" alt="light arrow" name="int_arrow" class=desktop_arrow" id="reg_arrow" />
                   </ul>
                   <ul class="flex_col hide nav_menu_sublist" id="">
                     <a href="">Overview</a>
@@ -50,8 +50,8 @@
                 <div class="nav_menu_item">
                   <ul class="link_title">
                     <a href="#" name="title">Company</a> 
-                    <img src="images/icon-arrow-dark.svg" alt="dark arrow" class="mobile_arrow"/>
-                    <img src="images/icon-arrow-light.svg" alt="light arrow" class="hide" id="reg_arrow" />
+                    <img src="images/icon-arrow-dark.svg" alt="dark arrow" name="int_arrow" class="mobile_arrow"/>
+                    <img src="images/icon-arrow-light.svg" alt="light arrow" name="int_arrow" class="desktop_arrow" id="reg_arrow" />
                   </ul>
                   <ul class="flex_col  hide nav_menu_sublist">
                     <a href="">About</a>
@@ -64,8 +64,8 @@
                 <div class="nav_menu_item">
                   <ul class="link_title">
                     <a href="#" name="title">Connect</a>
-                    <img src="images/icon-arrow-dark.svg" alt="dark arrow" class="mobile_arrow"/>
-                    <img src="images/icon-arrow-light.svg" alt="light arrow" class="hide" id="reg_arrow" />
+                    <img src="images/icon-arrow-dark.svg" alt="dark arrow" name="int_arrow" class="mobile_arrow"/>
+                    <img src="images/icon-arrow-light.svg" alt="light arrow" name="int_arrow" class="desktop_arrow" id="reg_arrow" />
                     
                   </ul>
                   <ul class="flex_col hide nav_menu_sublist">
@@ -83,8 +83,8 @@
                 </div>
               </nav>
                 <div class="nav_buttons_main">
-                  <button>Login</button>
-                  <button>Sign Up</button>
+                  <button class="login_d">Login</button>
+                  <button class="signup_d">Sign Up</button>
                 </div>
  
               
@@ -103,11 +103,11 @@
 
       <section class="body_section1">
         <h2 class="body_section1_title">Designed for the future</h2>
-        <div>
+        <div class="bs1_inner">
           <div class="body_section1_img">
             <img src="/images/illustration-editor-mobile.svg" alt="illustration">
           </div>
-          <div>
+          <div class="bs1_inner_texts">
             <div>
               <h3 class="body_section1_subtitle">Introducing an extensible editor</h3>
               <p class="body_section1_text">
@@ -142,20 +142,20 @@
         </div>
       </section>
 
-      <section>
-        <div>
+      <section class="body_section3">
+        <div class="body_section3_img">
           <img src="/images/illustration-laptop-mobile.svg" alt="">
         </div>
         <div>
           <div>
-            <h3>Free, open, simple</h3>
-            <p> Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+            <h3 class="body_section3_subtitle">Free, open, simple</h3>
+            <p class="body_section3_text"> Blogr is a free and open source application backed by a large community of helpful developers. It supports 
                 features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
                 and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
           </div>
           <div>
-            <h3>Powerful tooling</h3>
-            <p>
+            <h3 class="body_section3_subtitle">Powerful tooling</h3>
+            <p class="body_section3_text">
                 Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
                 capable of producing even the most complicated sites.
             </p>
@@ -163,13 +163,13 @@
         </div>
       </section>
       
-      <footer>
-        <div>
+      <footer class="flex_col ftr">
+        <div class="ftr_logo">
           <img src="/images/logo.svg" alt="blog logo">
         </div>
 
-        <div>
-          <h4>Product</h4>
+        <div class="flex_col ftr_section">
+          <h4 class="ftr_section_title">Product</h4>
           <a href="#">Overview</a>
           <a href="#">Pricing</a>
           <a href="#">Marketplace</a>
@@ -177,16 +177,16 @@
           <a href="#">Integrations</a>
         </div>
 
-        <div>
-          <h4>Company</h4>
+        <div class="flex_col ftr_section" >
+          <h4 class="ftr_section_title">Company</h4>
           <a href="#">About</a>
           <a href="#">Team</a>
           <a href="#">Blog</a>
           <a href="#">Careers</a>
         </div>
 
-        <div>
-          <h4>Connect</h4>
+        <div class="flex_col ftr_section">
+          <h4 class="ftr_section_title">Connect</h4>
           <a href="#">Contact</a>
           <a href="#">Newsletter</a>
           <a href="#">LinkedIn</a>

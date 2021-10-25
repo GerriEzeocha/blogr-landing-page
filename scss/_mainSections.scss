@@ -1,10 +1,11 @@
-.body_section1{
+.body_section1, .body_section3{
     background: $white;
 
     &_title {
         font-size: 1.8rem;
         margin: 5rem 0 2rem 0;
         color: $veryDarkBlue;
+
     }
 
     &_img{
@@ -12,6 +13,10 @@
 
         img{
             width: 100%;
+        }
+
+        @include breakpoints(laptop){
+            flex: 1;
         }
     }
 
@@ -26,6 +31,20 @@
         font-weight: 300;
         line-height: 1.9rem;
         padding: 1.4rem;
+        letter-spacing: 0.02rem;
+    }
+
+}
+
+.bs1_inner{
+    @include breakpoints(laptop){
+        display: flex;
+        flex-direction: row-reverse;
+
+        &_texts{
+            flex: 1;
+        }
+
     }
 }
 
@@ -69,5 +88,6 @@
         font-weight: 300;
         line-height: 1.9rem;
         padding: .9rem;
+        letter-spacing: 0.02rem;
     }
 }

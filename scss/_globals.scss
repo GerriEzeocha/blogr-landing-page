@@ -13,11 +13,6 @@ html{
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
 
-    background: gold;
-
-    @include breakpoints(tablet){
-        background: lightcoral;
-    }
 
     @include breakpoints(laptop){
         background: lightgreen;
@@ -35,6 +30,10 @@ h1, h2, h3, h4 {
 section{
     padding: 0.7rem;
     text-align: center;
+}
+
+footer{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .flex_row {
