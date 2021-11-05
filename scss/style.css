@@ -384,17 +384,20 @@ header {
   color: #ff525d;
 }
 
-@media (min-width: 830px) {
-  .intro_hero_buttons .start_btn:hover {
-    color: white;
-    background: #ff7a85;
-  }
+.intro_hero_buttons .start_btn:hover {
+  color: white;
+  background: #ff7a85;
 }
 
 .intro_hero_buttons .learn_btn {
   color: white;
   background-color: transparent;
   border: 1px solid white;
+}
+
+.intro_hero_buttons .learn_btn:hover {
+  color: #ff7a85;
+  background: white;
 }
 
 .body_section1, .body_section3 {
@@ -657,6 +660,10 @@ header {
   font-family: 'Ubuntu', sans-serif;
   color: #c8c8cb;
   line-height: 1.9rem;
+}
+
+.ftr_section a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 830px) {

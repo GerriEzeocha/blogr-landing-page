@@ -251,17 +251,21 @@ header{
         .start_btn{
             color: $lightRed;
 
-            @include breakpoints(laptop){
-                &:hover{
-                    color: $white;
-                    background: $veryLightRed;
-                }
+            &:hover{
+                color: $white;
+                background: $veryLightRed;
             }
+            
         }
         .learn_btn {
             color: $white;
             background-color: transparent;
             border: 1px solid $white;
+
+            &:hover{
+                color: $veryLightRed;
+                background: $white;
+            }
         }
     }
 }
