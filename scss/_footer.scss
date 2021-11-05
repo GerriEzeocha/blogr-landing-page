@@ -4,6 +4,8 @@
     background: $veryDarkBlackBlue;
     padding: 1.5rem;
     border-top-right-radius: 8rem;
+    align-items: center;
+    justify-content: center;
 
     &_logo{
         padding: 2rem;
@@ -39,6 +41,7 @@
 
     @include breakpoints(laptop){
         flex-direction: row;
+        align-items: flex-start;
     }
 }
 

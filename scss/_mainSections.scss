@@ -48,6 +48,7 @@
     @include breakpoints(laptop){
         display: flex;
         flex-direction: row-reverse;
+        height: 42rem;
 
         &_texts{
             flex: 1;
@@ -58,7 +59,7 @@
 }
 
 .imgOverflow{
-    margin-bottom: 13rem;
+    margin-bottom: 5rem;
 }
 
 .body_section2{

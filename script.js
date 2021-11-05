@@ -6,7 +6,10 @@ const mobileNav = document.getElementById("nav_menu");
 //mobile sublist
 let menuItems = document.querySelectorAll(".link_title");
 let subMenu = document.getElementsByClassName("nav_menu_sublist");
-let m_arrows = document.getElementsByName("int_arrow");
+let mArrow = document.getElementsByClassName("mobile_arrow");
+
+//destop arrows
+let dArrow = document.getElementsByClassName("desktop_arrow");
 
 
 bars.addEventListener("click", function(e){
@@ -26,6 +29,8 @@ close.addEventListener("click", function(e){
 menuItems.forEach((item, index) =>{
     item.addEventListener("click", function(e){
         subMenu[index].classList.toggle("hide");
-        m_arrows[index].classList.toggle("arrow_turn");
+        mArrow[index].classList.toggle("arrow_turn");
+        dArrow[index].classList.toggle("arrow_turn");
+        
     })
 })

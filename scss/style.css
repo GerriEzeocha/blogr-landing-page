@@ -461,6 +461,7 @@ header {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    height: 42rem;
   }
   .bs1_inner_texts {
     -webkit-box-flex: 1;
@@ -471,7 +472,7 @@ header {
 }
 
 .imgOverflow {
-  margin-bottom: 13rem;
+  margin-bottom: 5rem;
 }
 
 .body_section2 {
@@ -620,6 +621,12 @@ header {
   background: #25252d;
   padding: 1.5rem;
   border-top-right-radius: 8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ftr_logo {
@@ -674,6 +681,9 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
